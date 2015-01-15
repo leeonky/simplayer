@@ -359,7 +359,7 @@ case $1 in
 		do
 			project=${project%%/*}
 			if echo "$project" | grep -vq "_test$"; then
-				rm /usr/local/lib/lib$project.so
+				rm -rf /usr/local/lib/lib$project.so
 			fi
 		done
 	;;
