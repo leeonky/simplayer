@@ -362,6 +362,7 @@ case $1 in
 				rm -rf /usr/local/lib/lib$project.so
 			fi
 		done
+		rm -rf /usr/bin/simplayer
 	;;
 	*)
 		echo "-m create all projects makefile"
