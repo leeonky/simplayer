@@ -1,19 +1,14 @@
 # simplayer
 A simple media player under linux which is base on SDL2, ALSA and FFmpeg.
 
-No UI
 There is no UI in this player, the only way that can control the player is by input command when the player running. So it's prossbile that user can develop personalized UI to control the player.
 
-Support Audio passthough (HDMI)
 Bits Audio passthough works well on my receiver DENON AV1912.
 
-Support part of subtitle formats
 Only .srt(pure text) and .ass.
 
-Support .cue file for Audio
 simplayer can directly play .cue file.
 
-Support playlist
 simplayer can play playlist like cue file.
 
 # Dependency
