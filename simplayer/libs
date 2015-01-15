@@ -1,0 +1,15 @@
+pthread
+rt
+cclibc
+ccalsa
+ccmedia
+asound
+SDL2
+SDL2_ttf
+ccsdl2
+ccapplib
+ass
+ccffmpeg
+avformat
+avcodec
+avutil

@@ -1,0 +1,5 @@
+cppunit
+pthread
+rt
+cclibc
+cctest

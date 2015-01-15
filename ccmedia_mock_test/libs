@@ -1,0 +1,10 @@
+cppunit
+pthread
+rt
+cclibc
+ccmedia_mock
+cctest
+ccsdl2_mock
+ccalsa_mock
+ccapplib
+ccffmpeg_mock

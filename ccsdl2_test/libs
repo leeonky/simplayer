@@ -1,0 +1,8 @@
+cppunit
+pthread
+rt
+cclibc
+ccsdl2
+cctest
+SDL2
+SDL2_ttf

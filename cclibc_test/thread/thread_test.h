@@ -1,0 +1,113 @@
+#ifndef THREAD_TRREAD_TEST_H_
+#define THREAD_TRREAD_TEST_H_
+
+#include "cctest/util.h"
+
+class thread_test_class: public CppUnit::TestFixture {
+public:
+	CPPUNIT_TEST_SUITE (thread_test_class);
+	CPPUNIT_TEST (thread_attribute_set_stack_size);
+	CPPUNIT_TEST (thread_attribute_detach);
+	CPPUNIT_TEST (thread_interrupt);
+	CPPUNIT_TEST (thread_exit);
+	CPPUNIT_TEST (thread_sleep);
+	CPPUNIT_TEST (thread_thread_object);
+	CPPUNIT_TEST (thread_join_throw);
+	
+	CPPUNIT_TEST (thread_create);
+	CPPUNIT_TEST (thread_create_join);
+	CPPUNIT_TEST (thread_create_int);
+	CPPUNIT_TEST (thread_create_int_join);
+	CPPUNIT_TEST (thread_create_ref_int);
+	CPPUNIT_TEST (thread_create_ref_int_join);
+	CPPUNIT_TEST (thread_create_const_ref_int);
+	CPPUNIT_TEST (thread_create_const_ref_int_join);
+	CPPUNIT_TEST (thread_create_obj);
+	CPPUNIT_TEST (thread_create_obj_join);
+	CPPUNIT_TEST (thread_create_ref_obj);
+	CPPUNIT_TEST (thread_create_ref_obj_join);
+	CPPUNIT_TEST (thread_create_const_ref_obj);
+	CPPUNIT_TEST (thread_create_const_ref_obj_join);
+	CPPUNIT_TEST (thread_create_type);
+	CPPUNIT_TEST (thread_create_type_join);
+	CPPUNIT_TEST (thread_create_const_type);
+	CPPUNIT_TEST (thread_create_const_type_join);
+	CPPUNIT_TEST (thread_create_type_int);
+	CPPUNIT_TEST (thread_create_type_int_join);
+	CPPUNIT_TEST (thread_create_const_type_int);
+	CPPUNIT_TEST (thread_create_const_type_int_join);
+	CPPUNIT_TEST (thread_create_type_ref_int);
+	CPPUNIT_TEST (thread_create_type_ref_int_join);
+	CPPUNIT_TEST (thread_create_const_type_ref_int);
+	CPPUNIT_TEST (thread_create_const_type_ref_int_join);
+	CPPUNIT_TEST (thread_create_type_const_ref_int);
+	CPPUNIT_TEST (thread_create_type_const_ref_int_join);
+	CPPUNIT_TEST (thread_create_const_type_const_ref_int);
+	CPPUNIT_TEST (thread_create_const_type_const_ref_int_join);
+	CPPUNIT_TEST (thread_create_type_obj);
+	CPPUNIT_TEST (thread_create_type_obj_join);
+	CPPUNIT_TEST (thread_create_const_type_obj);
+	CPPUNIT_TEST (thread_create_const_type_obj_join);
+	CPPUNIT_TEST (thread_create_type_ref_obj);
+	CPPUNIT_TEST (thread_create_type_ref_obj_join);
+	CPPUNIT_TEST (thread_create_const_type_ref_obj);
+	CPPUNIT_TEST (thread_create_const_type_ref_obj_join);
+	CPPUNIT_TEST (thread_create_type_const_ref_obj);
+	CPPUNIT_TEST (thread_create_type_const_ref_obj_join);
+	CPPUNIT_TEST (thread_create_const_type_const_ref_obj);
+	CPPUNIT_TEST (thread_create_const_type_const_ref_obj_join);
+	CPPUNIT_TEST_SUITE_END();
+
+	void thread_attribute_set_stack_size();
+	void thread_attribute_detach();
+	void thread_interrupt();
+	void thread_exit();
+	void thread_sleep();
+	void thread_thread_object();
+	void thread_join_throw();
+	
+	void thread_create();
+	void thread_create_join();
+	void thread_create_int();
+	void thread_create_int_join();
+	void thread_create_ref_int();
+	void thread_create_ref_int_join();
+	void thread_create_const_ref_int();
+	void thread_create_const_ref_int_join();
+	void thread_create_obj();
+	void thread_create_obj_join();
+	void thread_create_ref_obj();
+	void thread_create_ref_obj_join();
+	void thread_create_const_ref_obj();
+	void thread_create_const_ref_obj_join();
+	void thread_create_type();
+	void thread_create_type_join();
+	void thread_create_const_type();
+	void thread_create_const_type_join();
+	void thread_create_type_int();
+	void thread_create_type_int_join();
+	void thread_create_const_type_int();
+	void thread_create_const_type_int_join();
+	void thread_create_type_ref_int();
+	void thread_create_type_ref_int_join();
+	void thread_create_const_type_ref_int();
+	void thread_create_const_type_ref_int_join();
+	void thread_create_type_const_ref_int();
+	void thread_create_type_const_ref_int_join();
+	void thread_create_const_type_const_ref_int();
+	void thread_create_const_type_const_ref_int_join();
+	void thread_create_type_obj();
+	void thread_create_type_obj_join();
+	void thread_create_const_type_obj();
+	void thread_create_const_type_obj_join();
+	void thread_create_type_ref_obj();
+	void thread_create_type_ref_obj_join();
+	void thread_create_const_type_ref_obj();
+	void thread_create_const_type_ref_obj_join();
+	void thread_create_type_const_ref_obj();
+	void thread_create_type_const_ref_obj_join();
+	void thread_create_const_type_const_ref_obj();
+	void thread_create_const_type_const_ref_obj_join();
+};
+
+#endif //THREAD_TRREAD_TEST_H_

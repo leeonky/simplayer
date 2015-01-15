@@ -1,0 +1,11 @@
+cppunit
+pthread
+rt
+cclibc
+ccalsa
+cctest
+ccffmpeg
+avformat
+avcodec
+swscale
+swresample

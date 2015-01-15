@@ -1,0 +1,6 @@
+cppunit
+pthread
+rt
+cclibc
+ccalsa_mock
+cctest

@@ -1,0 +1,6 @@
+cppunit
+pthread
+rt
+cclibc
+ccffmpeg_mock
+cctest

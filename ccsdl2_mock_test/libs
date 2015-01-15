@@ -1,0 +1,6 @@
+cppunit
+pthread
+rt
+cclibc
+ccsdl2_mock
+cctest

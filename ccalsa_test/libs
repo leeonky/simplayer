@@ -1,0 +1,7 @@
+cppunit
+pthread
+rt
+cclibc
+ccalsa
+cctest
+asound
